@@ -1,0 +1,5 @@
+<p (click)="ToggleSearchBar()">&rarr;</p>
+<div [hidden]="searchBarDisplay">
+<input type ="text" placeholder="ID" [(ngModel)]="id">
+<button (click)="Search()">Search</button>
+</div>

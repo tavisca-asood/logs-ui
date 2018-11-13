@@ -1,0 +1,7 @@
+app-search
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    height:3em;
+}
